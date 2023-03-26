@@ -8,7 +8,7 @@
     @include('template.pesan')
     @csrf
 
-        <div class="mb-3 row">
+        <div style="margin-top:3rem;" class="mb-3 row">
             <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
             <div class="col-sm-10">
                 <input type="date" class="form-control" name='tanggal' value="{{Session::get('tanggal')}}" id="tanggal">
@@ -19,7 +19,7 @@
         <div class="mb-3 row">
             <label for="nama_kantor" class="col-sm-2 col-form-label"> Nama Instansi</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name='nama_kantor' value="{{Session::get('nama_kantor')}}" id="nama_kantor">
+                <input type="text" class="form-control" name='nama_kantor' value="{{Session::get('nama_kantor')}}" placeholder="PT.Freeport Indonesiaa"id="nama_kantor">
             </div>
         </div>
     
@@ -27,7 +27,7 @@
         <div class="mb-3 row">
             <label for="alamat_kantor" class="col-sm-2 col-form-label">Alamat Instasi</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name='alamat_kantor' value="{{Session::get('alamat_kantor')}}" id="alamat_kantor">
+                <input type="text" class="form-control" name='alamat_kantor' value="{{Session::get('alamat_kantor')}}" placeholder="Jl.Hijau" id="alamat_kantor">
             </div>
         </div>
 
@@ -54,7 +54,7 @@
 
         <div class="mb-3 row">
           <label for="isi" class="form-label">Isi</label>
-          <textarea class="form-control  summernote" name="isi"  value="{{Session::get('isi')}}" id="isi"></textarea>
+          <textarea class="form-control  summernote" name="isi"  placholder="Saya tidak masuk dikarenakan............" value="{{Session::get('isi')}}" id="isi"></textarea>
       </div>
 
   

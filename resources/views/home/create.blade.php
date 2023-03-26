@@ -8,7 +8,7 @@
     @include('template.pesan')
     @csrf
 
-        <div class="mb-3 row">
+        <div style="margin-top:3rem" class="mb-3 row">
             <label for="tanggal" class="col-sm-2 col-form-label">Tanggal</label>
             <div class="col-sm-10">
                 <input type="date" class="form-control" name='tanggal' value="{{Session::get('tanggal')}}" id="tanggal">

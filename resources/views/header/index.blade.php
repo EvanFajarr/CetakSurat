@@ -1,27 +1,17 @@
 
-<header>
-    <div style=" background-color: #000 ; " class="px-3 py-2 text-white">
-      <div class="container ms-auto">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center">
 
-          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small center">
-            <li>
-              <a href="#" class="nav-link text-white">
-               Surat Izin
-              </a>
-            </li>
-            <li>
-              {{-- <a href="/aboutMe" class="nav-link text-white">  
-           About Me
-              </a> --}}
-            </li>
-            <li>
-              {{-- <a href="/tampilProject" class="nav-link text-white">
-              My Project
-              </a> --}}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
+
+  <div class="container-xxl position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+            <h1 class="m-0"><i class="fa fa- me-2"></i>Cetak<span class="fs-5">Surat</span></h1>
+            <!-- <img src="img/logo.png" alt="Logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="/" class="nav-item nav-link active">Home</a>
+            </div>
+    </nav>

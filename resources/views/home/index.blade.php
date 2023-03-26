@@ -3,40 +3,25 @@
 @section('konten')
 
 @include('template.pesan')
-<section class="py-5 text-center container">
-  <div style="margin-top:5rem;"class="row py-lg-5">
-    <div class="col-lg-6 col-md-8 mx-auto">
-      <h1 class="fw-light">Tulis Suratmu</h1>
-      <p class="lead text-dark "> Buat surat izin dengan cepat dan mudah </p>
-      <a href='/create' class="btn btn-outline-primary btn-lg">sekolah</a>
-      <a href='/suratizin' class="btn btn-outline-primary btn-lg">kantor</a>
-     </p>
-    </div>
-  </div>
-</section>
 
 
-{{-- <div class="row">
-  @foreach ($suratizin as $p)
-  <div class="col-sm-4">
-      <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-        <p class="text-muted"> {{ $p->tanggal }}</p>
-        <div class="card-body">
-         <p class="card-text">  {!! $p->isi !!}</p>
-
-        <a href="cetak/{{ $p['id'] }}" class="btn btn-outline-primary">Selengkapnya</a>
-     <a href="/cetak/{{ $p['id'] }}" class="btn btn-outline-primary btn-sm"><i class="bi bi-chat-right-text">   print</i></a>
-        <a href="/{{ $p['id'] }}/cetak" class="btn btn-outline-primary btn-sm"><i class="bi bi-chat-right-text">   Tanggapan</i></a>
-    
-      </div> 
-
-        <div class="card-footer">
-       <small class="text-muted"> {{ $p->lokasi }} ,{{ $p->detail_lokasi }}</small>
-        </div>
+<div class="container-xxl py-5 bg-primary hero-header mb-5">
+  <div class="container my-5 py-5 px-lg-5">
+      <div class="row g-5 py-5">
+          <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="text-white mb-4 animated zoomIn">Tulis Suratmu</h1>
+              <p class="text-white pb-3 animated zoomIn"> Buat surat izin dengan cepat dan mudah Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, culpa!</p>
+              <a href="/create" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Sekolah</a>
+              <a href="/suratizin" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Instansi Perkantoran</a>
+          </div>
+          <div class="col-lg-6 text-center text-lg-start">
+              <img class="img-fluid" src="img/hero.png" alt="">
+          </div>
       </div>
+  </div>
+</div>
+</div>
 
-    </div>
-    @endforeach --}}
 
   
  
